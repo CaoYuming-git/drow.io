@@ -1,45 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T03:42:37.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Tp2-t8dcfN-x_B71Md0t" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T04:02:19.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="zdeSMhGMqmZYJ2dXFaZe" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="1562" dy="3168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1077" dy="2910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EYt9l6OYSjj466IM3DUd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=3;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#212121;strokeColor=#212121;strokeWidth=2;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-3" target="EYt9l6OYSjj466IM3DUd-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-2" value="从配置文件读取配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Microsoft YaHei;fontColor=#212121;" vertex="1" connectable="0" parent="EYt9l6OYSjj466IM3DUd-1">
-          <mxGeometry x="-0.2933" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-3" value="index.php" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#212121;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="210" y="120" width="120" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=3;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#212121;strokeColor=#212121;strokeWidth=2;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-6" target="EYt9l6OYSjj466IM3DUd-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-5" value="调用run函数处理请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Microsoft YaHei;fontColor=#212121;" vertex="1" connectable="0" parent="EYt9l6OYSjj466IM3DUd-4">
-          <mxGeometry x="-0.2993" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-6" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; orphans: 4; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;new yii\web\Application($config)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#212121;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="150" y="360" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=3;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#212121;strokeColor=#212121;strokeWidth=2;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-9" target="EYt9l6OYSjj466IM3DUd-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-8" value="使用读取的配置，生成Application对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Microsoft YaHei;fontColor=#212121;" vertex="1" connectable="0" parent="EYt9l6OYSjj466IM3DUd-7">
-          <mxGeometry x="-0.3389" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-9" value="$config" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#212121;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-10" value="run()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#212121;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="210" y="495" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-25" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-49" target="EYt9l6OYSjj466IM3DUd-45">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="470" y="-90" as="sourcePoint" />
@@ -100,20 +64,23 @@
             <mxPoint x="390" y="-750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-45" value="\yii\base\Application" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-370" width="160" height="86" as="geometry" />
+        <mxCell id="EYt9l6OYSjj466IM3DUd-45" value="abstract \yii\base\Application" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-370" width="200" height="116" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-46" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-45">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-45">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-48" value="+ construct($config)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-45">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-61" value="+ abstract handleRequest" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="EYt9l6OYSjj466IM3DUd-45">
+          <mxGeometry y="90" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-49" value="yii\web\Application" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-210" width="160" height="86" as="geometry" />
+          <mxGeometry x="390" y="-100" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-50" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-49">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -133,7 +100,7 @@
         <mxCell id="EYt9l6OYSjj466IM3DUd-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-56" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
+        <mxCell id="EYt9l6OYSjj466IM3DUd-56" value="+ construct($config)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-57" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-40" target="EYt9l6OYSjj466IM3DUd-53">
@@ -150,6 +117,90 @@
             <mxPoint x="200" y="-1130" as="sourcePoint" />
             <mxPoint x="360" y="-1130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-66" value="\yii\BaseYii" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="761.25" y="-1270" width="437.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-67" value="+ static $classMap&lt;span style=&quot;background-color: initial;&quot;&gt;: array&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry y="26" width="437.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-76" value="+ static $app: \yii\web\Application | \yii\console\Applicaion，application对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry y="52" width="437.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-77" value="+ static $container: DI container依赖注入容器对象，用于创建对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry y="80" width="437.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry y="106" width="437.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-69" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry y="114" width="437.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-70" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-71" target="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="-1072" as="sourcePoint" />
+            <mxPoint x="1040" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-71" value="Yii" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-1062" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-72" value="无属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-71">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-71">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-74" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-71">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-78" target="EYt9l6OYSjj466IM3DUd-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-89" value="读取配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EYt9l6OYSjj466IM3DUd-82">
+          <mxGeometry x="-0.2855" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-78" value="1、注册Yii的自动加载器&lt;br&gt;2、初始化Yiii的classMap&lt;br&gt;3、初始化Yii的依赖注入容器对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-79" target="EYt9l6OYSjj466IM3DUd-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-79" value="index.php" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-342" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-81" target="EYt9l6OYSjj466IM3DUd-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-85" value="使用读取的配置，生成Application对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EYt9l6OYSjj466IM3DUd-84">
+          <mxGeometry x="-0.1503" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-81" value="$config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-83" target="EYt9l6OYSjj466IM3DUd-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-88" value="调用run函数处理请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EYt9l6OYSjj466IM3DUd-87">
+          <mxGeometry x="-0.2966" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-83" value="new yii\web\Application($config)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-86" value="run()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-90" target="EYt9l6OYSjj466IM3DUd-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-90" value="注册composer的自动加载器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
