@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T06:29:38.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4NbQ5uUePbw2-CSX3Yc1" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T06:41:42.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="pUuzscGZjpADz3jS4I8O" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="893" dy="2812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,16 +38,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-35" value="ServiceLocator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-740" width="160" height="86" as="geometry" />
+          <mxGeometry x="334" y="-810" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-36" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="EYt9l6OYSjj466IM3DUd-135" value="- $_components: array 实例化的组件对象数组" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-36" value="- $_definitions: array 组件的定义" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="78" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-38" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="EYt9l6OYSjj466IM3DUd-38" value="+ get($id): Object 获取组件对象(首次会实例化)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-136" value="+ set($id,$definition) 向服务定位器注册单个组件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
+          <mxGeometry y="112" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-137" value="+ setComponents($components) 向服务定位器批量注册组件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-35">
+          <mxGeometry y="138" width="270" height="42" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-39" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-26" target="EYt9l6OYSjj466IM3DUd-35">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -56,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-40" value="Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-920" width="160" height="86" as="geometry" />
+          <mxGeometry x="389" y="-950" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-41" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-40">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -101,7 +110,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-53" value="BaseObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-1120" width="160" height="130" as="geometry" />
+          <mxGeometry x="389" y="-1140" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-54" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -122,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-58" value="«interface»&lt;br&gt;&lt;b&gt;Configurable&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="415" y="-1200" width="110" height="50" as="geometry" />
+          <mxGeometry x="414" y="-1250" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-59" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-53" target="EYt9l6OYSjj466IM3DUd-58">
           <mxGeometry width="160" relative="1" as="geometry">
