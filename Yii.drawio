@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T04:02:19.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="zdeSMhGMqmZYJ2dXFaZe" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T04:24:50.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="naYnZnIpeKLQM4YXJpud" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="1077" dy="2910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-53" value="BaseObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-1090" width="160" height="86" as="geometry" />
+          <mxGeometry x="390" y="-1120" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-54" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -102,6 +102,9 @@
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-56" value="+ construct($config)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-100" value="+ init 初始化函数，为空，由子类进行实现覆盖" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-53">
+          <mxGeometry y="86" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-57" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-40" target="EYt9l6OYSjj466IM3DUd-53">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -119,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-66" value="\yii\BaseYii" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="761.25" y="-1270" width="437.5" height="140" as="geometry" />
+          <mxGeometry x="761.25" y="-1290" width="437.5" height="166" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-67" value="+ static $classMap&lt;span style=&quot;background-color: initial;&quot;&gt;: array&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
           <mxGeometry y="26" width="437.5" height="26" as="geometry" />
@@ -133,8 +136,11 @@
         <mxCell id="EYt9l6OYSjj466IM3DUd-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
           <mxGeometry y="106" width="437.5" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-69" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+        <mxCell id="EYt9l6OYSjj466IM3DUd-69" value="+&amp;nbsp;createObject&lt;span style=&quot;background-color: initial;&quot;&gt;(type,$params): Object 调用DI container来创建对象&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
           <mxGeometry y="114" width="437.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-93" value="+ static autoload 自动加载器、在入口文件进行注册" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-66">
+          <mxGeometry y="140" width="437.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-70" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-71" target="EYt9l6OYSjj466IM3DUd-66">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -151,7 +157,7 @@
         <mxCell id="EYt9l6OYSjj466IM3DUd-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-71">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-74" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-71">
+        <mxCell id="EYt9l6OYSjj466IM3DUd-74" value="无方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-71">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-78" target="EYt9l6OYSjj466IM3DUd-81">
@@ -169,7 +175,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-79" value="index.php" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-342" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="-360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-81" target="EYt9l6OYSjj466IM3DUd-83">
           <mxGeometry relative="1" as="geometry" />
@@ -201,6 +207,63 @@
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-90" value="注册composer的自动加载器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-96" target="EYt9l6OYSjj466IM3DUd-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-96" value="Yii::configure($this, $config);&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-1067" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-56" target="EYt9l6OYSjj466IM3DUd-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-98" target="EYt9l6OYSjj466IM3DUd-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-98" value="$this-&amp;gt;init();" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-1010" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-105" target="EYt9l6OYSjj466IM3DUd-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-105" value="Yii::$app = $this;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-106" target="EYt9l6OYSjj466IM3DUd-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-106" value="static::setInstance($this);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-360" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-107" target="EYt9l6OYSjj466IM3DUd-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-107" value="$this-&amp;gt;state = self::STATE_BEGIN;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="-314" width="190" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-108" target="EYt9l6OYSjj466IM3DUd-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-108" value="$this-&amp;gt;preInit($config);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-260" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-109" target="EYt9l6OYSjj466IM3DUd-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-109" value="$this-&amp;gt;registerErrorHandler($config);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-110" target="EYt9l6OYSjj466IM3DUd-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880.0000000000002" y="-135" as="sourcePoint" />
+            <mxPoint x="805.0000000000002" y="-1047" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-110" value="Component::__construct($config);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="665" y="-150" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYt9l6OYSjj466IM3DUd-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-48" target="EYt9l6OYSjj466IM3DUd-105">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
