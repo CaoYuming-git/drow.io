@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T00:51:18.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="j2OCpu3rvQmge65-r2ka" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T00:51:28.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DMVmkDmq9SsRY0ARkbHP" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="3058" dy="3524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
         <mxCell id="EYt9l6OYSjj466IM3DUd-45" value="abstract \yii\base\Application" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="-368" width="320" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-46" value="+&amp;nbsp;$loadedModules&lt;span style=&quot;background-color: initial;&quot;&gt;: array 读取包含的modules,包括自己&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-45" vertex="1">
+        <mxCell id="EYt9l6OYSjj466IM3DUd-46" value="+&amp;nbsp;$loadedModules&lt;span style=&quot;background-color: initial;&quot;&gt;: array 读取包含的module,包括自己&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-45" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EYt9l6OYSjj466IM3DUd-45" vertex="1">
