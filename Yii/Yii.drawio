@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T08:38:45.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="USnfua92IaCGTLc-PwgZ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T08:44:01.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="XkA3uI6QNhX3-QTljVcm" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="1868" dy="2891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,11 @@
         <mxCell id="EYt9l6OYSjj466IM3DUd-88" value="调用run函数处理请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EYt9l6OYSjj466IM3DUd-87" vertex="1" connectable="0">
           <mxGeometry x="-0.2966" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-83" value="new yii\web\Application($config)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -515,7 +520,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-25" value="static::setInstance($this);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-310" y="490" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-27" value="\yii\base\application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="mhmIhESspe-bekXu6FUe-27" value="\yii\base\application construct()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="290" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-29" value="Yii::$app-&amp;gt;loadedModules[get_class($instance)] = $instance;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -1014,6 +1019,17 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-168" value="$component-&amp;gt;bootstrap($this);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="876.25" y="1830" width="222.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-172" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="230" as="sourcePoint" />
+            <mxPoint x="-280" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-173" value="调用\yii\base\application的构造函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-172">
+          <mxGeometry x="-0.1844" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
