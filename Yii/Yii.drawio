@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T14:18:22.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="39i6yD9grn4AE_fPaatU" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T00:41:44.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sFOUhjwS03TKcWJ0xDAB" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="1562" dy="3168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,16 +65,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-40" value="Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="389" y="-950" width="160" height="86" as="geometry" />
+          <mxGeometry x="220.5" y="-1070" width="499" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-41" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-40" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="EYt9l6OYSjj466IM3DUd-41" value="- $_events&lt;span style=&quot;background-color: initial;&quot;&gt;: array 注册的事件处理器&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-40" vertex="1">
+          <mxGeometry y="26" width="499" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2hBmPjiTw3TC5ywfi_ag-9" value="- $_eventWildcards&lt;span style=&quot;background-color: initial;&quot;&gt;: array 注册的通配符事件处理器&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-40">
+          <mxGeometry y="52" width="499" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2hBmPjiTw3TC5ywfi_ag-10" value="- $_behaviors&lt;span style=&quot;background-color: initial;&quot;&gt;: array 注册的行为&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-40">
+          <mxGeometry y="78" width="499" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EYt9l6OYSjj466IM3DUd-40" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="104" width="499" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="EYt9l6OYSjj466IM3DUd-43" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-40" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="EYt9l6OYSjj466IM3DUd-43" value="+&amp;nbsp;ensureBehaviors&lt;span style=&quot;background-color: initial;&quot;&gt;() 注册行为，同时注册行为中声明的事件处理器到组件中&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-40" vertex="1">
+          <mxGeometry y="112" width="499" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2hBmPjiTw3TC5ywfi_ag-11" value="+&amp;nbsp;trigger&lt;span style=&quot;background-color: initial;&quot;&gt;() 触发事件，执行注册在组件中的事件处理器，然后执行注册在类中的事件处理器&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-40">
+          <mxGeometry y="138" width="499" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-35" target="EYt9l6OYSjj466IM3DUd-40" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -116,7 +125,7 @@
           <mxGeometry y="86" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-53" value="BaseObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="389" y="-1140" width="160" height="130" as="geometry" />
+          <mxGeometry x="389" y="-1350" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-54" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-53" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -137,7 +146,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-58" value="«interface»&lt;br&gt;&lt;b&gt;Configurable&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="414" y="-1250" width="110" height="50" as="geometry" />
+          <mxGeometry x="414" y="-1490" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-59" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-53" target="EYt9l6OYSjj466IM3DUd-58" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -236,7 +245,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-96" value="Yii::configure($this, $config);&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="-1067" width="170" height="40" as="geometry" />
+          <mxGeometry x="690" y="-1297" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EYt9l6OYSjj466IM3DUd-56" target="EYt9l6OYSjj466IM3DUd-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -245,7 +254,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-98" value="$this-&amp;gt;init();" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-1010" width="150" height="30" as="geometry" />
+          <mxGeometry x="615" y="-1220" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-105" target="EYt9l6OYSjj466IM3DUd-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
