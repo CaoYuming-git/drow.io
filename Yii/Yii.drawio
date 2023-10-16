@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T08:00:41.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="teUNED3apsxi9fbKs_Rd" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T08:38:45.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="USnfua92IaCGTLc-PwgZ" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="2077" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1868" dy="2891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -585,8 +585,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-53" target="mhmIhESspe-bekXu6FUe-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-109" value="设置config参数，并调用init函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-108">
+          <mxGeometry x="-0.328" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-53" value="$this-&amp;gt;registerErrorHandler($config);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="790" width="220" height="40" as="geometry" />
+          <mxGeometry x="-350" y="970" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-56" target="mhmIhESspe-bekXu6FUe-57">
           <mxGeometry relative="1" as="geometry" />
@@ -699,6 +707,22 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-75" target="mhmIhESspe-bekXu6FUe-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.694;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-75" target="mhmIhESspe-bekXu6FUe-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1413" y="880" />
+              <mxPoint x="1901" y="880" />
+              <mxPoint x="1901" y="600" />
+              <mxPoint x="1503" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-138" value="循环每一个参数执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-137">
+          <mxGeometry x="0.0781" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-75" value="$dependencies[参数名] = 参数默认值或Null" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1312.5" y="770" width="200" height="60" as="geometry" />
         </mxCell>
@@ -767,6 +791,229 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-103" value="&lt;div&gt;foreach ($config as $name =&amp;gt; $value) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; $object-&amp;gt;$name = $value;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="960" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-107" value="Component::__construct($config);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="1070" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-110" value="$this-&amp;gt;init()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-113" target="mhmIhESspe-bekXu6FUe-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-118" value="调用\yii\web\application的初始化函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-114">
+          <mxGeometry x="-0.2272" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-113" value="Yii::configure($this, $config);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1010" as="sourcePoint" />
+            <mxPoint x="10" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-117" value="设置参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-115">
+          <mxGeometry x="-0.0231" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-119" target="mhmIhESspe-bekXu6FUe-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-124" value="调用bootstrap函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-121">
+          <mxGeometry x="-0.0126" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-119" value="$this-&amp;gt;state = self::STATE_INIT;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1150" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-120" value="$this-&amp;gt;bootstrap();" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1239" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-122" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1090" as="sourcePoint" />
+            <mxPoint x="340" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-123" value="更新web application的状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-122">
+          <mxGeometry x="-0.2254" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-126" target="mhmIhESspe-bekXu6FUe-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-130" value="设置web application的webroot/web路径" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-128">
+          <mxGeometry x="-0.0524" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-126" value="$request = $this-&amp;gt;getRequest();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537" y="1170" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-127" target="mhmIhESspe-bekXu6FUe-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-133" value="调用父类(\yii\base\application)的bootstrap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-132">
+          <mxGeometry x="-0.1495" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-127" value="设置webroot、web路径" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="555.25" y="1250" width="136.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="623" y="1130" as="sourcePoint" />
+            <mxPoint x="630" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-135" value="调用\yii\web\application的bootstrap函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-129">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-131" value="parent::bootstrap();" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="563.5" y="1340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-139" target="mhmIhESspe-bekXu6FUe-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-144" value="循环遍历每一个扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-143">
+          <mxGeometry x="-0.4061" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-145" value="判断是否设置了启动就执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-143">
+          <mxGeometry x="0.1091" y="2" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-139" value="$this-&amp;gt;extensions = include &#39;@vendor/yiisoft/extensions.php&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1160" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-140" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-139">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="988" y="1100" as="sourcePoint" />
+            <mxPoint x="1020" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-141" value="读取安装了哪些Yii扩展" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-140">
+          <mxGeometry x="-0.0958" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-142" target="mhmIhESspe-bekXu6FUe-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-151" value="是，启动就要执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-150">
+          <mxGeometry x="0.3593" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-152" value="实例化扩展对象，并调用扩展的bootstrap函数，一般会注入到application中的事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-150">
+          <mxGeometry x="0.5827" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="1650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1261" y="1300" />
+              <mxPoint x="1261" y="1650" />
+              <mxPoint x="990" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-163" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-162">
+          <mxGeometry x="-0.3364" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-142" value="isset($extension[&#39;bootstrap&#39;])" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="901.5" y="1260" width="172" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-149" target="mhmIhESspe-bekXu6FUe-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-155" value="判断扩展是否实现了BootstraoInterface" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-154">
+          <mxGeometry x="-0.1837" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-149" value="$component = Yii::createObject($extension[&#39;bootstrap&#39;]);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="1400" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-153" target="mhmIhESspe-bekXu6FUe-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-158" value="如果实现了接口，则调用扩展的bootstrap方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-157">
+          <mxGeometry x="-0.4107" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="1510" />
+              <mxPoint x="1160" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-165" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-164">
+          <mxGeometry x="-0.4352" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-153" value="$component instanceof BootstrapInterface" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="1470" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-156" target="mhmIhESspe-bekXu6FUe-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-167" value="遍历每一个用户配置的bootstrap 引导组件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-160">
+          <mxGeometry x="0.2607" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-156" value="$component-&amp;gt;bootstrap($this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="1590" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-159" target="mhmIhESspe-bekXu6FUe-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-170" value="实例化引导组件，并执行组件的bootstrap方法(大部分是注入到application的事件中去)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-169">
+          <mxGeometry x="-0.2956" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-159" value="foreach $this-&amp;gt;bootstrap as&amp;nbsp;$mixed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="891.25" y="1710" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-168" value="$component-&amp;gt;bootstrap($this);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="876.25" y="1830" width="222.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
