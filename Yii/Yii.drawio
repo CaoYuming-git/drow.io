@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T00:44:09.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0GstfAgOnl5B9eAecR3I" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T00:47:34.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VRLEv4lsGV__dsYPrZ34" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="1562" dy="3168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="3168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,13 +208,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-78" value="1、注册Yii的自动加载器&lt;br&gt;2、初始化Yiii的classMap&lt;br&gt;3、初始化Yii的依赖注入容器对象" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="-120" width="160" height="60" as="geometry" />
+          <mxGeometry x="-570" y="-120" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-79" target="EYt9l6OYSjj466IM3DUd-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-79" value="index.php" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-360" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="-360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-81" target="EYt9l6OYSjj466IM3DUd-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -225,7 +225,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-81" value="$config" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-10" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-83" target="EYt9l6OYSjj466IM3DUd-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -236,16 +236,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-83" value="new yii\web\Application($config)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-86" value="run()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EYt9l6OYSjj466IM3DUd-90" target="EYt9l6OYSjj466IM3DUd-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-90" value="注册composer的自动加载器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-230" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EYt9l6OYSjj466IM3DUd-96" target="EYt9l6OYSjj466IM3DUd-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -393,6 +393,45 @@
         </mxCell>
         <mxCell id="2hBmPjiTw3TC5ywfi_ag-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-52" target="2hBmPjiTw3TC5ywfi_ag-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-3" value="\yii\base\Controller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-800" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mhmIhESspe-bekXu6FUe-3">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mhmIhESspe-bekXu6FUe-3">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-6" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mhmIhESspe-bekXu6FUe-3">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-3" target="EYt9l6OYSjj466IM3DUd-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-40" y="-900" as="sourcePoint" />
+            <mxPoint x="120" y="-900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="-986" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-8" value="\yii\web\Controller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-596" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mhmIhESspe-bekXu6FUe-8">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mhmIhESspe-bekXu6FUe-8">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mhmIhESspe-bekXu6FUe-8">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-8" target="mhmIhESspe-bekXu6FUe-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-410" y="-640" as="sourcePoint" />
+            <mxPoint x="-250" y="-640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
