@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T14:52:30.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="IrKLifkYuRDge4yTUkuj" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T15:17:41.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="hsM8gFpZyWyDcSfFQ2Qi" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="3142" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3390" dy="3260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-26" value="Module(包含mvc元素，是应用的基类)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="325" y="-584" width="290" height="210" as="geometry" />
+          <mxGeometry x="325" y="-584" width="290" height="256" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-134" value="+ $params: array 模块的参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-26" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -31,8 +31,11 @@
         <mxCell id="EYt9l6OYSjj466IM3DUd-123" value="+ init() 初始化控制器的命名空间，自动加载时用到" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-26" vertex="1">
           <mxGeometry y="138" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-28" value="+ static setInstance() 注册当前moudle实例到Yii::$app-&amp;gt;loadedModules中去" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-26">
+        <mxCell id="mhmIhESspe-bekXu6FUe-332" value="+&amp;nbsp;beforeAction($action) 执行模块中的action时会调用此函数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-26">
           <mxGeometry y="164" width="290" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-28" value="+ static setInstance() 注册当前moudle实例到Yii::$app-&amp;gt;loadedModules中去" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="EYt9l6OYSjj466IM3DUd-26">
+          <mxGeometry y="210" width="290" height="46" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-34" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="EYt9l6OYSjj466IM3DUd-45" target="EYt9l6OYSjj466IM3DUd-26" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -101,7 +104,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-45" value="abstract \yii\base\Application" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="299" y="-300" width="340" height="150" as="geometry" />
+          <mxGeometry x="300" y="-270" width="340" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-46" value="+ $loadedModules: array 读取包含的module,包括自己&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EYt9l6OYSjj466IM3DUd-45" vertex="1">
           <mxGeometry y="26" width="340" height="34" as="geometry" />
@@ -1403,36 +1406,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-269">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="3790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-269" value="$result = $controller-&amp;gt;runAction($actionID, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="409.5" y="3760" width="327" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-271" value="return $result;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="513" y="4031" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-275" target="mhmIhESspe-bekXu6FUe-279">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-281" value="判断是否是独立的action(在controller中单独重写actions()函数)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-280">
-          <mxGeometry x="-0.1626" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-275" value="$action = $this-&amp;gt;createAction($id);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="996.5" y="3660" width="222" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-276" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-275">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1110" y="3590" as="sourcePoint" />
-            <mxPoint x="910" y="3620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-277" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-276">
-          <mxGeometry x="-0.0729" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-283" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-279" target="mhmIhESspe-bekXu6FUe-282">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1939.0952380952376" y="3650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-284" value="是独立的action，则生成指定的action对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-283">
           <mxGeometry x="0.7148" y="-2" relative="1" as="geometry">
@@ -1453,10 +1441,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-279" value="isset($actionMap[$id]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1068" y="3790" width="80" height="80" as="geometry" />
+          <mxGeometry x="1581" y="3530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-282" value="return Yii::createObject($actionMap[$id], [$id, $this]);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1282.24" y="3910" width="287.76" height="60" as="geometry" />
+          <mxGeometry x="1799.48" y="3660" width="287.76" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-290" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-285" target="mhmIhESspe-bekXu6FUe-289">
           <mxGeometry relative="1" as="geometry" />
@@ -1467,16 +1455,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-285" value="$methodName = &#39;action&#39; . str_replace(&#39; &#39;, &#39;&#39;, ucwords(str_replace(&#39;-&#39;, &#39; &#39;, $id)));" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="947" y="4010" width="322" height="60" as="geometry" />
+          <mxGeometry x="1460" y="3750" width="322" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-293" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-289" target="mhmIhESspe-bekXu6FUe-292">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-289" value="$method = new \ReflectionMethod($this, $methodName);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="947" y="4160" width="322" height="60" as="geometry" />
+          <mxGeometry x="1460" y="3900" width="322" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-292" value="return new InlineAction($id, $this, $methodName);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="927" y="4300" width="362" height="60" as="geometry" />
+          <mxGeometry x="1440" y="4040" width="362" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-294" value="yiii\base\Action" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-920" y="-950" width="420" height="112" as="geometry" />
@@ -1519,6 +1507,93 @@
             <mxPoint x="-620" y="-550" as="sourcePoint" />
             <mxPoint x="-460" y="-550" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-311">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="3710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-322" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-311" target="mhmIhESspe-bekXu6FUe-321">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-323" value="获取控制器所属的所有父级模块(包括父模块的父模块，递归)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-322">
+          <mxGeometry x="-0.1556" y="-3" relative="1" as="geometry">
+            <mxPoint x="12" y="92" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-324" value="然后遍历所有的模块，调用其beforeAction方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-322">
+          <mxGeometry x="0.2056" y="-2" relative="1" as="geometry">
+            <mxPoint x="-9" y="67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-311" value="$action = $this-&amp;gt;createAction($id);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="3680" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-312" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-311">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1071" y="3610" as="sourcePoint" />
+            <mxPoint x="1073.5" y="3670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-319" value="生成action对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-312">
+          <mxGeometry x="0.3778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-320" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-312">
+          <mxGeometry x="-0.3206" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-315" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-279">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1621" y="3460" as="sourcePoint" />
+            <mxPoint x="1370" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-316" value="判断是否是独立的action(在controller中单独重写actions()函数)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-315">
+          <mxGeometry x="0.0313" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-317" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-315">
+          <mxGeometry x="-0.4857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-326" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-321" target="mhmIhESspe-bekXu6FUe-325">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-327" value="调用模块的beforeAction方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-326">
+          <mxGeometry x="-0.1833" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-321" value="foreach ($this-&amp;gt;getModules() as $module)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="951" y="4390" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-329" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-325" target="mhmIhESspe-bekXu6FUe-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-325">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1059.5" y="4370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="869.5" y="4560" />
+              <mxPoint x="869.5" y="4370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-331" value="遍历下一个模块" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-330">
+          <mxGeometry x="-0.1107" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-325" value="$module-&amp;gt;beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010.5" y="4530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-328" value="返回失败则中止遍历后续的模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="4530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
