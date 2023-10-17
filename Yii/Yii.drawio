@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T04:26:22.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="28Yph91gEPuV0QOaabsS" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T05:24:36.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4ALU3eDqDwO-7UzZDo_d" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="2665" dy="3314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1244,6 +1244,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-228" target="mhmIhESspe-bekXu6FUe-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="3220" />
+              <mxPoint x="1590" y="2720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-228" value="$controller = $this-&amp;gt;createControllerByID($id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1237.24" y="3190" width="260" height="60" as="geometry" />
         </mxCell>
@@ -1303,6 +1311,54 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-245" value="return&amp;nbsp;[$controller, $route];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1282.24" y="3350" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-252" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-250" target="mhmIhESspe-bekXu6FUe-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-253" value="将className进行转换格式，将abc-edf转换为AbcDef形式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-252">
+          <mxGeometry x="-0.1974" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-250" value="$className=$id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-255" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-251" target="mhmIhESspe-bekXu6FUe-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-256" value="将className加上控制器的命名空间，用于在Yii自动加载时找到对应的php文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-255">
+          <mxGeometry x="-0.2588" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-251" value="&lt;div&gt;$className = preg_replace_callback(&#39;%-([a-z0-9_])%i&#39;, function ($matches) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return ucfirst($matches[1]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }, ucfirst($className)) . &#39;Controller&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2305" y="2940" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-258" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-254" target="mhmIhESspe-bekXu6FUe-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-259" value="创建控制器对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-258">
+          <mxGeometry x="-0.0088" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-254" value="$className = ltrim($this-&amp;gt;controllerNamespace . &#39;\\&#39; . str_replace(&#39;/&#39;, &#39;\\&#39;, $prefix) . $className, &#39;\\&#39;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2275" y="3080" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-257" value="return $controller = Yii::createObject($className, [$id, $this]);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2267.5" y="3220" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-260" target="mhmIhESspe-bekXu6FUe-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-260" value="createControllerByID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-262" target="mhmIhESspe-bekXu6FUe-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-262" value="createController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1307" y="2570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
