@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T15:13:50.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7hBn92hkteaek4jSa5nY" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T04:26:22.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="28Yph91gEPuV0QOaabsS" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="1904" dy="2910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2665" dy="3314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1083,6 +1083,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9.999999999999773" y="2500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-183" value="$response = $this-&amp;gt;handleRequest($this-&amp;gt;getRequest());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-442.25" y="2470" width="321.5" height="60" as="geometry" />
         </mxCell>
@@ -1111,7 +1116,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-193" target="mhmIhESspe-bekXu6FUe-196">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-193" value="$this-&amp;gt;state = self::STATE_SENDING_RESPONSE;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mhmIhESspe-bekXu6FUe-193" value="$this-&amp;gt;state = self::STATE_SENDING_RESPONSE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-426.12" y="2840" width="290.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-196" target="mhmIhESspe-bekXu6FUe-198">
@@ -1133,6 +1138,171 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-201" value="return $response-&amp;gt;exitStatus;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-365.25" y="3180" width="169.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-204" target="mhmIhESspe-bekXu6FUe-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-209" value="调用handleRequest处理请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-208">
+          <mxGeometry x="-0.1879" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-204" value="$this-&amp;gt;getRequest()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99.5" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-205" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-204">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="2260" as="sourcePoint" />
+            <mxPoint x="50" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-206" value="获取request组件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-205">
+          <mxGeometry x="-0.0325" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-207" target="mhmIhESspe-bekXu6FUe-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-223" value="获取url和url上的参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-211">
+          <mxGeometry x="-0.4778" relative="1" as="geometry">
+            <mxPoint y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-207" value="$this-&amp;gt;handleRequest()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210" target="mhmIhESspe-bekXu6FUe-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-210" value="list($route, $params) = $request-&amp;gt;resolve()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="29.5" y="2580" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-215" target="mhmIhESspe-bekXu6FUe-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-220" value="返回url以及获取url上的参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-219">
+          <mxGeometry x="0.0023" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-215" value="$result = Yii::$app-&amp;gt;getUrlManager()-&amp;gt;parseRequest($this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2520" width="346" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-216" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-215">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="2450" as="sourcePoint" />
+            <mxPoint x="456" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-217" value="解析出请求的url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-216">
+          <mxGeometry x="-0.2296" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-218" value="return [$route, $this-&amp;gt;getQueryParams()]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451.5" y="2640" width="243" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-221" value="$this-&amp;gt;runAction($route, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49.25" y="3010" width="220.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="2955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-224" value="$this-&amp;gt;createController($route)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="2930" width="187" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-225" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-224">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="2870" as="sourcePoint" />
+            <mxPoint x="420" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-226" value="根据路由创建对应的控制器对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-225">
+          <mxGeometry x="-0.0483" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-227" target="mhmIhESspe-bekXu6FUe-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-227" value="list($id, $route) = explode(&#39;/&#39;, $route, 2);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1247.24" y="2690" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-228" target="mhmIhESspe-bekXu6FUe-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-248" value="返回控制器对象和剩余的url(actionID)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-246">
+          <mxGeometry x="0.4976" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-228" value="$controller = $this-&amp;gt;createControllerByID($id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1237.24" y="3190" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-235" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-231" target="mhmIhESspe-bekXu6FUe-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-240" value="不在controllerMap中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-235">
+          <mxGeometry x="-0.6483" relative="1" as="geometry">
+            <mxPoint y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-231" target="mhmIhESspe-bekXu6FUe-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-238" value="在controllerMap中如果存在，则使用controllerMap中指定的控制器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-237">
+          <mxGeometry x="0.6329" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-231" value="isset($this-&amp;gt;controllerMap[$id]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1262.24" y="2800" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-234" target="mhmIhESspe-bekXu6FUe-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-241" value="不是子模块" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-239">
+          <mxGeometry x="0.0325" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-234" target="mhmIhESspe-bekXu6FUe-242">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090.0047058823527" y="3350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-244" value="路由中包含了子模块，则使用子模块来生成控制器对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-243">
+          <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-234" value="$this-&amp;gt;getModule($id)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1262.24" y="2960" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-236">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1377.24" y="3310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1817.24" y="3310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-236" value="$controller = Yii::createObject($this-&amp;gt;controllerMap[$id], [$id, $this])" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1627.24" y="3190" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-242" value="return $module-&amp;gt;createController($route);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3350" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-245" value="return&amp;nbsp;[$controller, $route];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1282.24" y="3350" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
