@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T15:35:18.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7WDes9-Wd8i2lOZrFqQI" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T15:39:06.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sNjJqK55yrCrBPIm7A_x" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="3390" dy="3260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1612,21 +1612,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-333" value="$event = new ActionEvent($action);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="4440" width="210" height="60" as="geometry" />
+          <mxGeometry x="1492.5" y="4280" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-337" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-334" target="mhmIhESspe-bekXu6FUe-336">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-334" value="$this-&amp;gt;trigger(self::EVENT_BEFORE_ACTION, $event);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1407.5" y="4560" width="315" height="60" as="geometry" />
+          <mxGeometry x="1440" y="4400" width="315" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-336" value="return $event-&amp;gt;isValid;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1492.5" y="4700" width="145" height="60" as="geometry" />
+          <mxGeometry x="1525" y="4540" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-338" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-333">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1565" y="4330" as="sourcePoint" />
-            <mxPoint x="1200" y="4690" as="targetPoint" />
+            <mxPoint x="1597.5" y="4170" as="sourcePoint" />
+            <mxPoint x="1232.5" y="4530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-339" value="\yii\base\module" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-338">
@@ -1697,6 +1697,67 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-358" value="$this-&amp;gt;beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="985.75" y="4670" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-362" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-364" target="mhmIhESspe-bekXu6FUe-366">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-363" value="触发beforeAction事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-362">
+          <mxGeometry x="-0.4097" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-364" value="$event = new ActionEvent($action);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1722.5" y="4740" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-365" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-366" target="mhmIhESspe-bekXu6FUe-367">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-366" value="$this-&amp;gt;trigger(self::EVENT_BEFORE_ACTION, $event);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="4860" width="315" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-367" value="return $event-&amp;gt;isValid;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="5000" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-368" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-364">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1827.5" y="4630" as="sourcePoint" />
+            <mxPoint x="1462.5" y="4990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-369" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-368">
+          <mxGeometry x="0.0111" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-370" value="创建一个action事件对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-368">
+          <mxGeometry x="0.5075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-373">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="4770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-373" value="parent::beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1343" y="4740" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-376" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-373">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1436" y="4660" as="sourcePoint" />
+            <mxPoint x="1280" y="4870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-377" value="\yii\web\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-376">
+          <mxGeometry x="0.178" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-378" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-358" target="mhmIhESspe-bekXu6FUe-373">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="4910" as="sourcePoint" />
+            <mxPoint x="590" y="4860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
