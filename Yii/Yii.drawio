@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T15:44:49.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mkoWRHwFLzQQbLjZOW7I" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T15:14:36.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4wQkO1uJUoCygH2WTU7W" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="3390" dy="3260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1142,49 +1142,31 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-201" value="return $response-&amp;gt;exitStatus;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-365.25" y="3180" width="169.51" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-204" target="mhmIhESspe-bekXu6FUe-207">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-209" value="调用handleRequest处理请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-208">
-          <mxGeometry x="-0.1879" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="mhmIhESspe-bekXu6FUe-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-210">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="2230" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-204" value="$this-&amp;gt;getRequest()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="99.5" y="2320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-205" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-204">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="2260" as="sourcePoint" />
-            <mxPoint x="50" y="2430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-206" value="获取request组件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-205">
-          <mxGeometry x="-0.0325" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-207" target="mhmIhESspe-bekXu6FUe-210">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-223" value="获取url和url上的参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-211">
           <mxGeometry x="-0.4778" relative="1" as="geometry">
             <mxPoint y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-207" value="$this-&amp;gt;handleRequest()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="2460" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="2610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210" target="mhmIhESspe-bekXu6FUe-221">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-401" value="执行action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-222">
+          <mxGeometry x="0.0979" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="2368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-210" value="list($route, $params) = $request-&amp;gt;resolve()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="29.5" y="2580" width="260" height="60" as="geometry" />
+          <mxGeometry x="29.5" y="2338" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-215" target="mhmIhESspe-bekXu6FUe-218">
           <mxGeometry relative="1" as="geometry" />
@@ -1195,12 +1177,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-215" value="$result = Yii::$app-&amp;gt;getUrlManager()-&amp;gt;parseRequest($this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="2520" width="346" height="60" as="geometry" />
+          <mxGeometry x="491.5" y="2290" width="346" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-216" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-215">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="573" y="2450" as="sourcePoint" />
-            <mxPoint x="456" y="2440" as="targetPoint" />
+            <mxPoint x="664.5" y="2220" as="sourcePoint" />
+            <mxPoint x="547.5" y="2210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-217" value="解析出请求的url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-216">
@@ -1209,9 +1191,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-218" value="return [$route, $this-&amp;gt;getQueryParams()]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="451.5" y="2640" width="243" height="60" as="geometry" />
+          <mxGeometry x="543" y="2410" width="243" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-221" value="$this-&amp;gt;runAction($route, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mhmIhESspe-bekXu6FUe-400" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-221" target="mhmIhESspe-bekXu6FUe-399">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-402" value="将action结果以response对象形式返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-400">
+          <mxGeometry x="0.0455" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-221" value="$result = $this-&amp;gt;runAction($route, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="49.25" y="3010" width="220.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224">
@@ -1759,8 +1749,34 @@
             <mxPoint x="590" y="4860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="5160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-390" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379" target="mhmIhESspe-bekXu6FUe-389">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-391" value="执行控制器中的afterAction(默认触发afterAction事件)方法，可以通过这个来格式化输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-390">
+          <mxGeometry x="-0.0023" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-379" value="$result = $action-&amp;gt;runWithParams($params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="926.25" y="5130" width="289.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-396" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-380" target="mhmIhESspe-bekXu6FUe-395">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-397" value="调用action方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-396">
+          <mxGeometry x="-0.2387" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-398" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-380">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="5220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-380" value="$args = $this-&amp;gt;controller-&amp;gt;bindActionParams($this, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1403.5" y="5190" width="377.5" height="60" as="geometry" />
@@ -1781,19 +1797,44 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-384" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="5175" width="120" height="60" as="geometry" />
+        <mxCell id="mhmIhESspe-bekXu6FUe-384" value="$method = new \ReflectionMethod($this, $action-&amp;gt;actionMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="5151" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-385" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-384">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2020" y="5085" as="sourcePoint" />
-            <mxPoint x="2100" y="5015" as="targetPoint" />
+            <mxPoint x="2135" y="5050" as="sourcePoint" />
+            <mxPoint x="2090" y="4935" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-386" value="\yii\web\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-385">
           <mxGeometry x="0.284" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-387" value="使用反射生成action方法对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-385">
+          <mxGeometry x="0.0781" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-393" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-389" target="mhmIhESspe-bekXu6FUe-392">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-394" value="循环执行控制器所属模块的afterAction(默认触发afterAction事件)方法，可以通过这个来格式化输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-393">
+          <mxGeometry x="-0.2432" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-389" value="$result = $this-&amp;gt;afterAction($action, $result);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="931" y="5380" width="279" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-392" value="&lt;div&gt;foreach ($modules as $module) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /* @var $module Module */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; $result = $module-&amp;gt;afterAction($action, $result);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="916.25" y="5560" width="309.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-395" value="return&amp;nbsp;call_user_func_array([$this-&amp;gt;controller, $this-&amp;gt;actionMethod], $args);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1378.62" y="5360" width="427.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-399" value="$response = $this-&amp;gt;getResponse();&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;$response-&amp;gt;data = $result;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="44.62" y="3290" width="230.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
