@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T15:17:30.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="v7qOk2c7tZSSTBrBmWaZ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T23:57:56.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DHeqsAoFvi52ISGSOS_k" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="3390" dy="3260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3885" dy="3524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,6 +248,11 @@
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-83" value="new yii\web\Application($config)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-421" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYt9l6OYSjj466IM3DUd-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="2240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EYt9l6OYSjj466IM3DUd-86" value="run()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="2210" width="120" height="60" as="geometry" />
@@ -1086,9 +1091,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-183">
+        <mxCell id="mhmIhESspe-bekXu6FUe-425" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-183" target="mhmIhESspe-bekXu6FUe-422">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="9.999999999999773" y="2500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="2500" />
+              <mxPoint x="-20" y="2180" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-183" value="$response = $this-&amp;gt;handleRequest($this-&amp;gt;getRequest());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1147,14 +1155,14 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-201" value="return $response-&amp;gt;exitStatus;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-365.25" y="3180" width="169.51" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-210">
+        <mxCell id="mhmIhESspe-bekXu6FUe-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-422" target="mhmIhESspe-bekXu6FUe-210">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="2230" as="sourcePoint" />
+            <mxPoint x="160" y="2030" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-223" value="获取url和url上的参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-211">
           <mxGeometry x="-0.4778" relative="1" as="geometry">
-            <mxPoint y="14" as="offset" />
+            <mxPoint y="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210" target="mhmIhESspe-bekXu6FUe-221">
@@ -1184,7 +1192,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-215" value="$result = Yii::$app-&amp;gt;getUrlManager()-&amp;gt;parseRequest($this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="491.5" y="2290" width="346" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-216" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-215">
+        <mxCell id="mhmIhESspe-bekXu6FUe-216" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-426" target="mhmIhESspe-bekXu6FUe-215">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="664.5" y="2220" as="sourcePoint" />
             <mxPoint x="547.5" y="2210" as="targetPoint" />
@@ -1209,9 +1217,13 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-221" value="$result = $this-&amp;gt;runAction($route, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="49.25" y="3010" width="220.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224">
+        <mxCell id="mhmIhESspe-bekXu6FUe-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224" target="mhmIhESspe-bekXu6FUe-262">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="2955" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="2955" />
+              <mxPoint x="820" y="2600" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-270" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224" target="mhmIhESspe-bekXu6FUe-269">
@@ -1225,7 +1237,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-224" value="$this-&amp;gt;createController($route)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="479.5" y="2930" width="187" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-225" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-224">
+        <mxCell id="mhmIhESspe-bekXu6FUe-225" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-429" target="mhmIhESspe-bekXu6FUe-224">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="573" y="2800" as="sourcePoint" />
             <mxPoint x="420" y="2880" as="targetPoint" />
@@ -1233,11 +1245,6 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-226" value="根据路由创建对应的控制器对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-225">
           <mxGeometry x="-0.0483" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-278" value="\yii\base\module" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-225">
-          <mxGeometry x="0.2688" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1362,14 +1369,14 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-260" target="mhmIhESspe-bekXu6FUe-250">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-260" value="createControllerByID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2385" y="2690" width="120" height="60" as="geometry" />
+        <mxCell id="mhmIhESspe-bekXu6FUe-260" value="createControllerByID($id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2373.75" y="2690" width="142.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-262" target="mhmIhESspe-bekXu6FUe-227">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-262" value="createController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1307" y="2570" width="120" height="60" as="geometry" />
+        <mxCell id="mhmIhESspe-bekXu6FUe-262" value="createController($route)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1300.74" y="2570" width="133" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-265" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-262">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1861,11 +1868,21 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-412" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-409" target="mhmIhESspe-bekXu6FUe-411">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-420" value="触发afterPrepare事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-412">
+          <mxGeometry x="-0.1444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-409" value="$this-&amp;gt;prepare();" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-960" y="2980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-414" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-411" target="mhmIhESspe-bekXu6FUe-413">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-419" value="发送头信息(包括cookie头信息)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-414">
+          <mxGeometry x="-0.1722" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-411" value="$this-&amp;gt;trigger(self::EVENT_AFTER_PREPARE);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-1035" y="3120" width="270" height="60" as="geometry" />
@@ -1884,6 +1901,48 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-417" value="$this-&amp;gt;trigger(self::EVENT_AFTER_SEND);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1030" y="3550" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-422" value="handleRequest($request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-423" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-422">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="2100" as="sourcePoint" />
+            <mxPoint x="80" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-424" value="\yii\web\application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-423">
+          <mxGeometry x="0.0615" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-426" value="resolve()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="605" y="2140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-427" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-426">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="2090" as="sourcePoint" />
+            <mxPoint x="550" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-428" value="\yii\web\request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-427">
+          <mxGeometry x="-0.1319" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-429" value="runAction($route, $params = [])" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="483" y="2760" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-430" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-429">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="572" y="2670" as="sourcePoint" />
+            <mxPoint x="470" y="2710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-431" value="\yii\base\module" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-430">
+          <mxGeometry x="-0.1174" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
