@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T23:57:56.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DHeqsAoFvi52ISGSOS_k" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T23:58:26.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="NdiQseyme12h3sruRIXt" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="3885" dy="3524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1212,6 +1212,14 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-402" value="将action结果以response对象形式返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-400">
           <mxGeometry x="0.0455" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-221" target="mhmIhESspe-bekXu6FUe-429">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="3040" />
+              <mxPoint x="360" y="2790" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-221" value="$result = $this-&amp;gt;runAction($route, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
