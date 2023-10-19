@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T00:09:04.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="gW3FEGdKY4mWA6ZlDrgq" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T00:54:11.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2XIJuA9FLuYuepAKYQTR" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="3142" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4257" dy="3721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1091,14 +1091,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-425" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-183" target="mhmIhESspe-bekXu6FUe-422">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-20" y="2500" />
-              <mxPoint x="-20" y="2180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-183" value="$response = $this-&amp;gt;handleRequest($this-&amp;gt;getRequest());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-442.25" y="2470" width="321.5" height="60" as="geometry" />
         </mxCell>
@@ -1173,11 +1165,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="2368" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-210" value="list($route, $params) = $request-&amp;gt;resolve()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="29.5" y="2338" width="260" height="60" as="geometry" />
         </mxCell>
@@ -1214,25 +1201,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-221" target="mhmIhESspe-bekXu6FUe-429">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="360" y="3040" />
-              <mxPoint x="360" y="2790" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-221" value="$result = $this-&amp;gt;runAction($route, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="49.25" y="3010" width="220.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224" target="mhmIhESspe-bekXu6FUe-262">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1160" y="2955" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="820" y="2955" />
-              <mxPoint x="820" y="2600" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-270" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224" target="mhmIhESspe-bekXu6FUe-269">
           <mxGeometry relative="1" as="geometry" />
@@ -1268,14 +1238,6 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-248" value="返回控制器对象和剩余的url(actionID)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-246">
           <mxGeometry x="0.4976" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-228" target="mhmIhESspe-bekXu6FUe-260">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1590" y="3220" />
-              <mxPoint x="1590" y="2720" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-228" value="$controller = $this-&amp;gt;createControllerByID($id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1518,11 +1480,6 @@
             <mxPoint x="-460" y="-550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-311" target="mhmIhESspe-bekXu6FUe-436">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1440" y="3490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-322" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-311" target="mhmIhESspe-bekXu6FUe-321">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1724,11 +1681,6 @@
             <mxPoint x="1" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-373">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1710" y="4770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-373" value="parent::beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1343" y="4740" width="187" height="60" as="geometry" />
         </mxCell>
@@ -1747,11 +1699,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="4910" as="sourcePoint" />
             <mxPoint x="590" y="4860" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379" target="mhmIhESspe-bekXu6FUe-452">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1460" y="5160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-390" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379" target="mhmIhESspe-bekXu6FUe-389">
@@ -1773,11 +1720,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-398" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-380">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1920" y="5220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-380" value="$args = $this-&amp;gt;controller-&amp;gt;bindActionParams($this, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1403.5" y="5190" width="377.5" height="60" as="geometry" />
         </mxCell>
@@ -1792,23 +1734,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-384" value="$method = new \ReflectionMethod($this, $action-&amp;gt;actionMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="5151" width="370" height="60" as="geometry" />
+        <mxCell id="mhmIhESspe-bekXu6FUe-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-384" target="mhmIhESspe-bekXu6FUe-458">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-385" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-384">
+        <mxCell id="mhmIhESspe-bekXu6FUe-460" value="使用反射，循环每个函数需要的参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-459">
+          <mxGeometry x="-0.1461" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-384" value="$method = new \ReflectionMethod($this, $action-&amp;gt;actionMethod);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1937.24" y="5151" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-385" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-455">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2135" y="5050" as="sourcePoint" />
+            <mxPoint x="2122" y="4970" as="sourcePoint" />
             <mxPoint x="2090" y="4935" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-386" value="\yii\web\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-385">
           <mxGeometry x="0.284" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="-34" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-387" value="使用反射生成action方法对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-385">
-          <mxGeometry x="0.0781" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-393" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-389" target="mhmIhESspe-bekXu6FUe-392">
@@ -2001,6 +1946,289 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-452" value="runWithParams($params)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1517.25" y="5070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-456" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-455" target="mhmIhESspe-bekXu6FUe-384">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-457" value="使用反射生成action方法对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-456">
+          <mxGeometry x="-0.3286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-455" value="bindActionParams($action, $params)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2007.24" y="5030" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-462" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-458" target="mhmIhESspe-bekXu6FUe-461">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-463" value="判断函数要求传入的参数是否在实际传入的参数中存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-462">
+          <mxGeometry x="-0.164" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-458" value="foreach ($method-&amp;gt;getParameters() as $param)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1988.24" y="5270" width="268" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-465" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-461" target="mhmIhESspe-bekXu6FUe-464">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-466" value="记录下实际传入参数中的这个参数，会返回给上一级，供函数调用传参使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-465">
+          <mxGeometry x="-0.2109" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="227" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-467" value="需要的参数在用户传入的参数中存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-465">
+          <mxGeometry x="-0.483" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-469" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-461" target="mhmIhESspe-bekXu6FUe-471">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2470" y="5570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-470" value="需要的参数，用户传入的参数中没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-469">
+          <mxGeometry x="0.5994" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-472" value="判断这个需要的参数是否是非内置类型，即类、接口、trait等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-469">
+          <mxGeometry x="0.768" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-461" value="array_key_exists($name, $params)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2028.24" y="5420" width="188" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-512" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-464" target="mhmIhESspe-bekXu6FUe-511">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-464" value="$args[] = $actionParams[$name] = $params[$name];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1973.24" y="5940" width="298" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-474" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-471" target="mhmIhESspe-bekXu6FUe-473">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-475" value="是非内置类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-474">
+          <mxGeometry x="-0.2702" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-488" value="根据函数需要的参数名和对应的类&lt;br&gt;1、去当前控制器所属的module、和module所属的module中去找是否存在对应的组件&lt;br&gt;2、去当前Yii::$container(依赖注入容器)中去找是否存在对应的对象或者定义&lt;br&gt;如果存在则使用此作为运行action的参数，返回到上一级、供函数调用传参使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-474">
+          <mxGeometry x="0.7067" y="-4" relative="1" as="geometry">
+            <mxPoint x="36" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-489" value="使用依赖注入获取参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-474">
+          <mxGeometry x="-0.5314" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-477" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-471" target="mhmIhESspe-bekXu6FUe-478">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2877.523809523809" y="5770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-479" value="判断参数是否包含默认值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-477">
+          <mxGeometry x="0.6849" relative="1" as="geometry">
+            <mxPoint y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-480" value="不是非内置类型且用户没有传参" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-477">
+          <mxGeometry x="0.5074" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-471" value="!$type-&amp;gt;isBuiltin()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="5560" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-513" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-473">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2130" y="6130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2480" y="6130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-473" value="$this-&amp;gt;bindInjectedParams($type, $name, $args, $requestedParams);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2286.25" y="5940" width="382.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-482" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-478" target="mhmIhESspe-bekXu6FUe-481">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-483" value="不包含默认值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-482">
+          <mxGeometry x="0.5183" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-485" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-478" target="mhmIhESspe-bekXu6FUe-484">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-486" value="包含默认值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-485">
+          <mxGeometry x="-0.3058" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-487" value="记录下默认值，会返回给上一级，供函数调用传参使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-485">
+          <mxGeometry x="0.1771" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-478" value="$param-&amp;gt;isDefaultValueAvailable()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="5760" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-481" value="报错" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3180" y="5940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-516" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-484">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2127.714378720238" y="6120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2900" y="6120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-484" value="$args[] = $actionParams[$name] = $param-&amp;gt;getDefaultValue();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2722.5" y="5940" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-494" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-490" target="mhmIhESspe-bekXu6FUe-493">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-495" value="根据类型和参数名去当前控制器所属的module(包含所有父级module)中去找是否存在对应的组件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-494">
+          <mxGeometry x="-0.0836" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-490" value="bindInjectedParams(\ReflectionType $type, $name, &amp;amp;$args, &amp;amp;$requestedParams)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3440" y="5530" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-491" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-490">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3670.5" y="5460" as="sourcePoint" />
+            <mxPoint x="3207.5" y="5660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-492" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-491">
+          <mxGeometry x="0.1374" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-497" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-493" target="mhmIhESspe-bekXu6FUe-502">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3670" y="5850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-501" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-497">
+          <mxGeometry x="-0.3905" relative="1" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-503" value="去当前的依赖注入容器找是否存在对应类型的对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-497">
+          <mxGeometry x="0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-499" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-493" target="mhmIhESspe-bekXu6FUe-498">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-500" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-499">
+          <mxGeometry x="0.5605" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-493" value="($component = $this-&amp;gt;module-&amp;gt;get($name, false)) instanceof $typeName" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3511.5" y="5680" width="317" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-498" value="返回组件对象作为参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3977.5" y="5850" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-505" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-502" target="mhmIhESspe-bekXu6FUe-504">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-506" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-505">
+          <mxGeometry x="-0.2847" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-508" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-502" target="mhmIhESspe-bekXu6FUe-507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-509" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-508">
+          <mxGeometry x="0.434" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-502" value="\Yii::$container-&amp;gt;has($typeName) &amp;amp;&amp;amp; ($service = \Yii::$container-&amp;gt;get($typeName)) instanceof $typeName" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3516.5" y="5820" width="307" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-504" value="返回DI容器中的对象作为参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="5960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-507" value="报错" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3847.5" y="5950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-510" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-473" target="mhmIhESspe-bekXu6FUe-490">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="6290" as="sourcePoint" />
+            <mxPoint x="2290" y="6240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-511" value="return $args;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2062.24" y="6310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-517" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-380" target="mhmIhESspe-bekXu6FUe-455">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1840" y="5330" as="sourcePoint" />
+            <mxPoint x="1890" y="5280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-518" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379" target="mhmIhESspe-bekXu6FUe-452">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="5100" as="sourcePoint" />
+            <mxPoint x="1280" y="5050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-519" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-449" target="mhmIhESspe-bekXu6FUe-373">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1597.6525" y="4750" as="sourcePoint" />
+            <mxPoint x="1587.34" y="4800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-520" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-311" target="mhmIhESspe-bekXu6FUe-436">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="3670" as="sourcePoint" />
+            <mxPoint x="1440" y="3620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-521" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-228" target="mhmIhESspe-bekXu6FUe-260">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2130" y="2700" as="sourcePoint" />
+            <mxPoint x="2180" y="2650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-522" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-224" target="mhmIhESspe-bekXu6FUe-262">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="2600" as="sourcePoint" />
+            <mxPoint x="1000" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-523" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-221" target="mhmIhESspe-bekXu6FUe-429">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="2900" as="sourcePoint" />
+            <mxPoint x="310" y="2850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-524" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-210" target="mhmIhESspe-bekXu6FUe-426">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="2190" as="sourcePoint" />
+            <mxPoint x="530" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-525" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-183" target="mhmIhESspe-bekXu6FUe-422">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="2050" as="sourcePoint" />
+            <mxPoint x="280" y="2000" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
