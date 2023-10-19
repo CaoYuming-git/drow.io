@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T00:02:02.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8owwvGgF6VTbc4qWv2Dc" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T00:04:15.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="McQZt0cVgiyJZZtwqEkC" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="2904" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1621,22 +1621,17 @@
           <mxGeometry x="1440" y="4400" width="315" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-336" value="return $event-&amp;gt;isValid;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1525" y="4540" width="145" height="60" as="geometry" />
+          <mxGeometry x="1525" y="4490" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-338" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-333">
+        <mxCell id="mhmIhESspe-bekXu6FUe-338" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-439">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1597.5" y="4170" as="sourcePoint" />
+            <mxPoint x="1598" y="4120" as="sourcePoint" />
             <mxPoint x="1232.5" y="4530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-339" value="\yii\base\module" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-338">
           <mxGeometry x="0.0111" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-340" value="创建一个action事件对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-338">
-          <mxGeometry x="0.5075" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-343" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-325" target="mhmIhESspe-bekXu6FUe-333">
@@ -1969,6 +1964,17 @@
           <mxGeometry x="-0.036" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-439" target="mhmIhESspe-bekXu6FUe-333">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-442" value="创建一个action事件对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-440">
+          <mxGeometry x="-0.116" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-439" value="beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1537.5" y="4180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
