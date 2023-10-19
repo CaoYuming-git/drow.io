@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T00:06:57.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Iibg6Cb8moo1LUTZ4yic" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T00:09:04.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="gW3FEGdKY4mWA6ZlDrgq" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="3142" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1749,7 +1749,7 @@
             <mxPoint x="590" y="4860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379">
+        <mxCell id="mhmIhESspe-bekXu6FUe-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-379" target="mhmIhESspe-bekXu6FUe-452">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1460" y="5160" as="targetPoint" />
           </mxGeometry>
@@ -1781,19 +1781,14 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-380" value="$args = $this-&amp;gt;controller-&amp;gt;bindActionParams($this, $params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1403.5" y="5190" width="377.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-381" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-380">
+        <mxCell id="mhmIhESspe-bekXu6FUe-381" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-452">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1591" y="5070" as="sourcePoint" />
-            <mxPoint x="1452.5" y="5040" as="targetPoint" />
+            <mxPoint x="1592.25" y="4980" as="sourcePoint" />
+            <mxPoint x="1594.75" y="5120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-382" value="\yii\base\InlineAction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-381">
           <mxGeometry x="-0.1619" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-383" value="绑定参数？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-381">
-          <mxGeometry x="0.4077" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1995,6 +1990,17 @@
           <mxGeometry x="-0.0508" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-453" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-452" target="mhmIhESspe-bekXu6FUe-380">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-454" value="返回执行action需要传入的参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-453">
+          <mxGeometry x="-0.1905" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-452" value="runWithParams($params)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1517.25" y="5070" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
