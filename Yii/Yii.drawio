@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T00:00:35.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="d-CS7TfzuSdP14YupXTA" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T00:01:25.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="iAlTMX6-BSr6IDrBxTB-" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="2904" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1550,7 +1550,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-315" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-279">
+        <mxCell id="mhmIhESspe-bekXu6FUe-315" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-436" target="mhmIhESspe-bekXu6FUe-279">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1621" y="3460" as="sourcePoint" />
             <mxPoint x="1370" y="3440" as="targetPoint" />
@@ -1558,11 +1558,6 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-316" value="判断是否是独立的action(在controller中单独重写actions()函数)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-315">
           <mxGeometry x="0.0313" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-317" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-315">
-          <mxGeometry x="-0.4857" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1958,6 +1953,20 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-435" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-434">
           <mxGeometry x="-0.0011" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-436" value="createAction($id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1561" y="3440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-437" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-436">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1621" y="3400" as="sourcePoint" />
+            <mxPoint x="1380" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-438" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-437">
+          <mxGeometry x="-0.036" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
