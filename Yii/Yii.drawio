@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T00:04:15.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="McQZt0cVgiyJZZtwqEkC" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T00:06:57.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Iibg6Cb8moo1LUTZ4yic" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
-    <mxGraphModel dx="2904" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3142" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1711,22 +1711,17 @@
           <mxGeometry x="1670" y="4860" width="315" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-367" value="return $event-&amp;gt;isValid;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1755" y="5000" width="145" height="60" as="geometry" />
+          <mxGeometry x="1755" y="4960" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-368" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-364">
+        <mxCell id="mhmIhESspe-bekXu6FUe-368" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-364" source="mhmIhESspe-bekXu6FUe-449">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1827.5" y="4630" as="sourcePoint" />
             <mxPoint x="1462.5" y="4990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-369" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-368">
-          <mxGeometry x="0.0111" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-370" value="创建一个action事件对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-368">
           <mxGeometry x="0.5075" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-373">
@@ -1737,9 +1732,9 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-373" value="parent::beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1343" y="4740" width="187" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-376" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-373">
+        <mxCell id="mhmIhESspe-bekXu6FUe-376" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-443">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1436" y="4660" as="sourcePoint" />
+            <mxPoint x="1437" y="4580" as="sourcePoint" />
             <mxPoint x="1280" y="4870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1975,6 +1970,31 @@
         </mxCell>
         <mxCell id="mhmIhESspe-bekXu6FUe-439" value="beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1537.5" y="4180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-446" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-443" target="mhmIhESspe-bekXu6FUe-373">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-447" value="调用父级beforeAction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-446">
+          <mxGeometry x="-0.1484" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-443" value="beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1376.5" y="4630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-449" value="beforeAction($action)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1767.5" y="4640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-450" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-449">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1828" y="4590" as="sourcePoint" />
+            <mxPoint x="1850" y="4490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-451" value="\yii\base\controller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-450">
+          <mxGeometry x="-0.0508" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
