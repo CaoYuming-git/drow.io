@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T00:57:45.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8bjBISdq-ofJ9Jq66jH5" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T01:01:14.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="-Qe0COpX0Gz6UMc7JGH7" version="22.0.4" type="github">
   <diagram name="第 1 页" id="MYnPqrq0IcUWPamjDBn3">
     <mxGraphModel dx="3142" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -817,7 +817,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-113" value="Yii::configure($this, $config);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="1080" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-113">
+        <mxCell id="mhmIhESspe-bekXu6FUe-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-536" target="mhmIhESspe-bekXu6FUe-113">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="1010" as="sourcePoint" />
             <mxPoint x="10" y="940" as="targetPoint" />
@@ -847,7 +847,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-120" value="$this-&amp;gt;bootstrap();" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="1239" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-122" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-119">
+        <mxCell id="mhmIhESspe-bekXu6FUe-122" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-539" target="mhmIhESspe-bekXu6FUe-119">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="1090" as="sourcePoint" />
             <mxPoint x="340" y="980" as="targetPoint" />
@@ -880,7 +880,7 @@
         <mxCell id="mhmIhESspe-bekXu6FUe-127" value="设置webroot、web路径" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="555.25" y="1250" width="136.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mhmIhESspe-bekXu6FUe-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-126">
+        <mxCell id="mhmIhESspe-bekXu6FUe-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mhmIhESspe-bekXu6FUe-542" target="mhmIhESspe-bekXu6FUe-126">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="623" y="1130" as="sourcePoint" />
             <mxPoint x="630" y="1090" as="targetPoint" />
@@ -2267,6 +2267,48 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1100" y="550" as="sourcePoint" />
             <mxPoint x="1150" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-536" value="Component::__construct($config);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-12.5" y="1000" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-537" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-536">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="930" as="sourcePoint" />
+            <mxPoint x="10" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-538" value="\yii\base\baseobject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-537">
+          <mxGeometry x="-0.1265" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-539" value="init()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="289.5" y="1070" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-540" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-539">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1000" as="sourcePoint" />
+            <mxPoint x="440" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-541" value="\yii\web\application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-540">
+          <mxGeometry x="0.0229" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-542" value="bootstrap()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="563.5" y="1090" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-543" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="mhmIhESspe-bekXu6FUe-542">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="624" y="1050" as="sourcePoint" />
+            <mxPoint x="570" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhmIhESspe-bekXu6FUe-544" value="\yii\web\application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhmIhESspe-bekXu6FUe-543">
+          <mxGeometry x="-0.1845" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
